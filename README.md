@@ -1,6 +1,6 @@
-#Notes for Uncle Bob's clean code course.
-
-##Names
+# Notes for Uncle Bob's clean code course.
+---
+## Names
 * Classes:
     * noun (avoid 'noise', such as: Manager, Data...);
     * use shorter names for public classes and longer names for public classes
@@ -21,3 +21,5 @@
     `enum Color {
         RED, GREEN, YELLOW
     }`
+---
+## Functions
