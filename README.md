@@ -1,5 +1,4 @@
 # Notes for Uncle Bob's clean code course.
----
 ## Names
 * Classes:
     * noun (avoid 'noise', such as: Manager, Data...);
@@ -27,4 +26,33 @@
 * Large function should be refactored into class/module.
 * Extract function from another till you drop (till it possible).
 
+## Function stucture
+* No more than 3 arguments.
+* Do not pass boolean arguments.
+* No output arguments.
+* Do not check arguments for `null` in your system (except you are developing public API).
 
+## Class/module structure
+* Put most important stuff and less detailed on top,
+and less important (and more detailed) to bottom.
+* Switch statement
+    * Minimaze usage of switch statement.
+    * Replace it with pylymorphism.
+* Make dependencies on abstraction (interfaces).
+* Switch case can be used in main partition.
+* Resolve temporal coupling with passing a block.
+
+## CQS
+* Command - setters (change state).
+* Query - getters (should not change state).
+* functions that return value, should not change state.
+* functions that change state, should not return values.
+
+
+
+
+## Thesaurus
+Tempolar coupling - function that should be called one after another.
+CQS - Command Query Separation.
+
+Law of Demeter
