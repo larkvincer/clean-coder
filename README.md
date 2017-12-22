@@ -22,4 +22,9 @@
     }`
 ---
 ## Functions
+* Functions should be small, about 4-7 lines.
+* Function should one thing, do it well and do it only.
+* Large function should be refactored into class/module.
+* Extract function from another till you drop (till it possible).
+
 
