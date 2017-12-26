@@ -20,6 +20,7 @@
         RED, GREEN, YELLOW
     }`
 ---
+
 ## Functions
 * Functions should be small, about 4-7 lines.
 * Function should one thing, do it well and do it only.
@@ -31,6 +32,7 @@
 * Do not pass boolean arguments.
 * No output arguments.
 * Do not check arguments for `null` in your system (except you are developing public API).
+---
 
 ## Class/module structure
 * Put most important stuff and less detailed on top,
@@ -47,7 +49,7 @@ and less important (and more detailed) to bottom.
 * Query - getters (should not change state).
 * functions that return value, should not change state.
 * functions that change state, should not return values.
-
+---
 
 ## Loops
 * Avoid mid-loop returns and breaks.
@@ -56,12 +58,7 @@ and less important (and more detailed) to bottom.
 * Write error code before another code.
 * `try` word should be in the first line of function and contain
 only function call.
-
-
-
-## Thesaurus
-Tempolar coupling - function that should be called one after another.
-CQS - Command Query Separation.
+---
 
 ## Law of Demeter:
 * You may call methods of objects that are:
@@ -71,4 +68,9 @@ CQS - Command Query Separation.
     4. Globals
 * You man NOT call methods of objects that are:
     1. Returned from a previous method call. (point.getx().gety().getz().doSmth())
+---
+
+## Thesaurus
+* Tempolar coupling - function that should be called one after another.
+* CQS - Command Query Separation.
 
