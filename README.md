@@ -49,6 +49,14 @@ and less important (and more detailed) to bottom.
 * functions that change state, should not return values.
 
 
+## Loops
+* Avoid mid-loop returns and breaks.
+
+## Catching Errors
+* Write error code before another code.
+* `try` word should be in the first line of function and contain
+only function call.
+
 
 
 ## Thesaurus
