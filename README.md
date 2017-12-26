@@ -55,4 +55,12 @@ and less important (and more detailed) to bottom.
 Tempolar coupling - function that should be called one after another.
 CQS - Command Query Separation.
 
-Law of Demeter
+## Law of Demeter:
+* You may call methods of objects that are:
+    1. Passed as arguments
+    2. Created locally
+    3. Instance variables
+    4. Globals
+* You man NOT call methods of objects that are:
+    1. Returned from a previous method call. (point.getx().gety().getz().doSmth())
+
